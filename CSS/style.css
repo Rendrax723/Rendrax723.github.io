@@ -1,0 +1,116 @@
+/* fonts */
+
+@font-face {
+    font-family: "caligraphAX";
+    src: url(../fonts/Amarillo.ttf);
+}
+
+
+
+/* page */
+
+body.headerBackground {
+    background: #6B45B9;
+}
+
+div.header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 15px;
+    font-family: caligraphAX;
+    font-size: 100%;
+    line-height: 100px;
+    text-shadow: 5px 5px 10px #2c1b4d;
+}
+
+hr {
+    box-shadow: 5px 5px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.opl {
+    transition: all 0.1s;
+    -webkit-trantition: all 0.1s;
+    color: white;
+    font-family: monospace;
+    font-size: 35px;
+    box-shadow: 5px 5px 10px rgb(0, 32, 17);
+        background: rgb(74, 54, 125);
+    text-align: center;
+    border-radius: 100px;
+    padding: 5px 10px;
+}
+
+h1.opl:hover {
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    background: white;
+}
+
+#jam {
+    color: white;
+    text-align: center;
+    font-family: caligraphAX;
+    letter-spacing: 10px;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+#clock {
+    text-align: center;
+}
+
+div.tgl {
+    color: white;
+    text-align: center;
+    font-family: caligraphAX;
+    letter-spacing: 10px;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.developer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 15px;
+    font-family: caligraphAX;
+    font-size: 20px;
+    line-height: 100px;
+    text-shadow: 5px 5px 10px #2c1b4d;
+}
+
+.ol {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 35px;
+    text-shadow: 5px 5px 10px #2c1b4d;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.basic {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 15px;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 100px;
+    text-shadow: 5px 5px 10px #2c1b4d;
+
+}
+.ols {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 70px;
+    text-shadow: 5px 5px 10px #2c1b4d;
+}
